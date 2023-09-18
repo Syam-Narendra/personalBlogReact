@@ -1,35 +1,35 @@
-### Description
+# Personal Portfolio Website in React
 
-A simple portfolio template for Computer Science and Cybersecurity professionals built with React. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![react portfoiio](src/assets/images/page.gif)
 
-### Setup
+Built using:
 
-**Install the git repo**
+- Front-end library: React
+- CSS framework: React-bootstrap
+- CSS animations library: Animate.css
 
-<pre>git clone https://github.com/Duerme/cybersecurity-portfolio-webpage.git</pre>
+In the /personal-portfolio, you can run:
 
-**Install yarn**
+### `npm start`
 
-Install yarn to test and build the website. You can use the link [here](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable).
- 
-**Install required dependencies**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<pre>yarn install</pre>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**Start the server**
+### `npm test`
 
-<pre>yarn start</pre>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**Build the web-page**
+### `npm run build`
 
-<pre>yarn build</pre>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### More
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Modify pages content in  `src/content_option.js`.
-
-### Thanks!
-
-Like the page? Leave a ⭐! 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
