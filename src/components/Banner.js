@@ -16,11 +16,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Syam Narendra`} <br/><span className="wrap">Full Stack Developer</span></h1>
-                <p>My fullname is Saidnazarova Odinanabonu. I'm 15 years old. I study 249-school in 10th grade.I am a front-end web developer. I can make the website more, more interactive with web animation
-           I study at Web Brain Academy group G5. When I first came to web brain, I had no knowledge of programming.
-           But now with the help of strong aspirations and teachers, my level of knowledge has greatly increased and I can freely create web site views that are used in our daily lives
-        </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <p>Highly skilled and motivated full-stack developer, Experience in creating web applications from concept to deployment. I have a passion for both front-end and back-end development, and I thrive in dynamic, collaborative environments. My dedication to staying current with the latest technologies allows me to deliver efficient and innovative solutions to complex problems.</p>
+                  <a className="lets-connect-anchor" href="#connect">Let’s Connect <ArrowRightCircle size={25}/></a>
               </div>}
             </TrackVisibility>
           </Col>

@@ -330,7 +330,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item img {
   width: 50%;
-  margin: 0 auto 15px auto;
+  margin: 10 auto 15px auto;
 }
 .background-image-left {
   top: 28%;
@@ -395,6 +395,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
+
+.color-red{
+  color: red !important;
+}
+
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
@@ -615,4 +620,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.lets-connect-anchor{
+  text-decoration: none;
+  color: white;
 }
