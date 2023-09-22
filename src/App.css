@@ -391,8 +391,7 @@ height: 10%;
   color: white;
 }
 .logo-image{
-  height: 100%;
-  width: 100%;
+  width: 100px !important;
 }
 
 .telegram-link-text:hover{
