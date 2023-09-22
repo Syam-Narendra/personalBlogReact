@@ -39,6 +39,54 @@ export const Skills = () => {
       ]
   };
 
+  const skillList =[
+    {
+        id:1,
+        imageUrl:"https://bit.ly/3rfl0JY",
+        skillName:"Java",
+    },
+    {
+        id:1,
+        imageUrl:"https://i.ibb.co/88bM0sJ/20230921-140615.png",
+        skillName:"AWS",
+    },
+    {
+        id:1,
+        imageUrl:"https://bit.ly/450rp9u",
+        skillName:"Python",
+    },
+    {
+        id:1,
+        imageUrl:"https://i.ibb.co/WDcdhg3/pngwing-com.png",
+        skillName:"Node JS",
+    },
+    {
+        id:1,
+        imageUrl:"https://bit.ly/3RvedGC",
+        skillName:"React JS",
+    },
+    {
+        id:1,
+        imageUrl:"https://i.ibb.co/jhFRDQv/pngwing-com-1.png",
+        skillName:"JavaScript",
+    },
+    {
+        id:1,
+        imageUrl:"https://i.ibb.co/LtCKHbs/pngegg-1.png",
+        skillName:"HTML & CSS",
+    },
+    {
+        id:1,
+        imageUrl:"https://i.ibb.co/yspQnrw/SQL.png",
+        skillName:"SQL",
+    },
+    {
+        id:1,
+        imageUrl:"https://i.ibb.co/d2rLczL/20230921-132636.png",
+        skillName:"GIT",
+    },
+    ]
+
   return (
     <section className="skill" id="skills">
         <div className="container">
@@ -47,55 +95,18 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                         <Slider {...settings} className="owl-carousel owl-theme skill-slider">
-                            <div className="skill-item item">
-                                <img className="skill-bg-image" src="https://bit.ly/3rfl0JY" alt="java-icon" />
-                                <h5 className="skill-name">Java</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://bit.ly/450rp9u" alt="python-icon" />
-                                <h5>Python</h5>
-                            </div>
-                            
-                            <div className="item">
-                                <img src="https://i.ibb.co/88bM0sJ/20230921-140615.png" alt="aws-icon" />
-                                <h5>AWS</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://i.ibb.co/WDcdhg3/pngwing-com.png" alt="nodejs-icon" />
-                                <h5>Node JS</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://bit.ly/3RvedGC" alt="react-icon" />
-                                <h5>React JS</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://i.ibb.co/jhFRDQv/pngwing-com-1.png" alt="js-icon" />
-                                <h5>JavaScript</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://i.ibb.co/LtCKHbs/pngegg-1.png" alt="html-icon" />
-                                <h5>HTML CSS</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://i.ibb.co/yspQnrw/SQL.png" alt="sql-icon" />
-                                <h5>SQL</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://i.ibb.co/d2rLczL/20230921-132636.png" alt="git-icon" />
-                                <h5>Git</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://i.ibb.co/DQ8FcfY/20230921-140952.png" alt="postman-icon" />
-                                <h5>Postman</h5>
-                            </div>
-                            
+                            {skillList.map(skill =>(
+                                <div className="skill-item item">
+                                    <img src={skill.imageUrl} alt={skill.altText} />
+                                    <h5>{skill.skillName}</h5>
+                                </div>
+                            ))}
                         </Slider>
-                        
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="bg-image-left" />
     </section>
   )
 }

@@ -336,6 +336,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-image{
 height: 10%;
 }
+.fa{
+  font-size: 1000px;
+}
+
+.address-container{
+  background: linear-gradient(90.21deg, rgba(74, 47, 189, 0.5) -5.91%, rgba(170, 54, 124, 0.5) 111.58%);
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -373,6 +386,13 @@ height: 10%;
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
+}
+.telegram-link-text{
+  color: white;
+}
+
+.telegram-link-text:hover{
+  color: black;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
