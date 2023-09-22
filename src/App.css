@@ -390,6 +390,10 @@ height: 10%;
 .telegram-link-text{
   color: white;
 }
+.logo-image{
+  height: 100%;
+  width: 100%;
+}
 
 .telegram-link-text:hover{
   color: black;
