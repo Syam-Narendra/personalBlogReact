@@ -41,7 +41,7 @@ export const Skills = () => {
   const skillList =[
     {
         id:1,
-        imageUrl:"https://bit.ly/3rfl0JY",
+        imageUrl:"https://shorturl.at/mFPT3",
         skillName:"Java",
     },
     {
