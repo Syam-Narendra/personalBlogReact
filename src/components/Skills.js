@@ -64,6 +64,11 @@ export const Skills = () => {
         imageUrl:"https://bit.ly/3RvedGC",
         skillName:"React JS",
     },
+     {
+      id:10,
+      imageUrl:"https://i.ibb.co/nsXJR1w/next-fhh.jpg",
+      skillName:"Next Js",
+    },
     {
         id:6,
         imageUrl:"https://i.ibb.co/jhFRDQv/pngwing-com-1.png",
@@ -84,11 +89,6 @@ export const Skills = () => {
         imageUrl:"https://i.ibb.co/d2rLczL/20230921-132636.png",
         skillName:"GIT",
     },
-    {
-      id:10,
-      imageUrl:"https://i.ibb.co/6Fkq6Kg/next-js.png",
-      skillName:"Next Js",
-    }
     ]
 
   return (
