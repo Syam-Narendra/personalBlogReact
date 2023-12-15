@@ -45,45 +45,50 @@ export const Skills = () => {
         skillName:"Java",
     },
     {
-        id:1,
+        id:2,
         imageUrl:"https://i.ibb.co/88bM0sJ/20230921-140615.png",
         skillName:"AWS",
     },
     {
-        id:1,
+        id:3,
         imageUrl:"https://bit.ly/450rp9u",
         skillName:"Python",
     },
     {
-        id:1,
+        id:4,
         imageUrl:"https://i.ibb.co/WDcdhg3/pngwing-com.png",
         skillName:"Node JS",
     },
     {
-        id:1,
+        id:5,
         imageUrl:"https://bit.ly/3RvedGC",
         skillName:"React JS",
     },
     {
-        id:1,
+        id:6,
         imageUrl:"https://i.ibb.co/jhFRDQv/pngwing-com-1.png",
         skillName:"JavaScript",
     },
     {
-        id:1,
+        id:7,
         imageUrl:"https://i.ibb.co/LtCKHbs/pngegg-1.png",
         skillName:"HTML & CSS",
     },
     {
-        id:1,
+        id:8,
         imageUrl:"https://i.ibb.co/yspQnrw/SQL.png",
         skillName:"SQL",
     },
     {
-        id:1,
+        id:9,
         imageUrl:"https://i.ibb.co/d2rLczL/20230921-132636.png",
         skillName:"GIT",
     },
+    {
+      id:10,
+      imageUrl:"https://i.ibb.co/6Fkq6Kg/next-js.png",
+      skillName:"Next Js",
+    }
     ]
 
   return (
