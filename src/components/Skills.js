@@ -66,7 +66,7 @@ export const Skills = () => {
     },
      {
       id:10,
-      imageUrl:"https://i.ibb.co/nsXJR1w/next-fhh.jpg",
+      imageUrl:"https://i.ibb.co/HtQFrny/next-js.png",
       skillName:"Next Js",
     },
     {
